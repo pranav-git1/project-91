@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="game.css">
+    <script src="game.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</head>
+
+<body class="bodyBackground">
+    <h4 id="player1_name"></h4><span id="player1_score"></span><br>
+    <h4 id="player1_name"></h4><span id="player1_score"></span>
+    <div class="container">
+        <center>
+            <h1 class="btn btn-danger">THE MATH QUIZ GAME</h1><br><br>
+            <h3>Question Turn - <span id="question-turn"></span></h3><br>
+            <h3>Answer Turn - <span id="answer-turn"></span></h3><br>
+            <div id="output" class="div-background">
+
+            </div><br><br>
+            <input id="number1" placeholder="Number1"><br><br>
+            <input id="number1" placeholder="Number2"><br><br>
+            <button id="send" onclick="send()" class="btn btn-success">SEND</button>
+        </center>
+    </div>
+</body>
+
+</html>

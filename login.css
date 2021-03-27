@@ -1,0 +1,9 @@
+.div-backround {
+    background-color: chocolate;
+    width: 1000px;
+    border-radius: 3%;
+}
+
+.body-background {
+    background-image: url("background.gif");
+}
